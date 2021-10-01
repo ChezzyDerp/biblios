@@ -1,0 +1,58 @@
+.Header{
+    display: flex;
+    padding: 0 calc(1px + 5vw);
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    background-color: white;
+}
+.Logo{
+    display: flex;
+    align-items: center;
+    
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: calc(16px + 1vw);
+    color: rgba(70, 70, 70, 1);
+    text-decoration: none;
+}
+.Logo img{
+    width: calc(60px + 1vw);
+    margin-right: calc(9px + 1vw) ;
+    padding-bottom: 7px;
+} 
+
+.navItem{
+   color: rgba(60, 60, 60, 1);
+   text-decoration: none;
+   margin: 0 calc(20px + 1vw);
+
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 600;
+   font-size: calc(7px + 1vw);
+
+   transition: 0.3s;
+}
+.navItem:hover{
+    color:rgba(93, 106, 251, 1) ;
+    transition: 0.5s;
+}
+.active{
+    color: rgba(93, 106, 251, 1);
+}
+.gitHub{
+    display: flex;
+    align-items: center;
+}
+.gitHub img{
+    width: calc(40px + 1vw);
+}
+.gitHub a{
+    text-decoration: none;
+    color:rgba(81, 81, 81, 1);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: calc(7px + 1vw);
+    margin-right: calc(5px + 1vw);
+} 

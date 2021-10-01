@@ -1,0 +1,41 @@
+.Nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    
+}
+.wrap{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: rgba(60, 60, 60, 1);
+    font-size: calc(9px + 1vw);
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.wrap div{
+    margin-top: 35px;
+}
+.navItem{
+    text-decoration: none;
+    margin-bottom: 25px;
+    color: rgba(60, 60, 60, 1);
+    font-size: calc(4px + 1vw);
+    
+}
+.wrap2{
+    
+    display: flex;
+    flex-direction: column;
+}
+.active{
+    color:rgba(93, 106, 251, 1);
+    background-color: rgba(93, 106, 251, 0.2);
+    padding: 5px 15px;
+    
+    font-size: calc(5px + 1vw);
+    border-radius: 5%;
+}

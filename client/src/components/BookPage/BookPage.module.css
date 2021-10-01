@@ -1,0 +1,46 @@
+.BookPage{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.book{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 25px;
+    width: 8fr;
+    
+}
+.preview{
+    width: calc(430px + 1vw);
+    
+    height: calc(570px + 1vw);
+    border-radius: 7%;
+    
+}
+.type{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: calc(1px + 1vw);
+    color: white;
+    background-color: rgba(93, 106, 251, 1);
+    padding: 1px 6px;
+    margin-top: 4px;
+    border-radius: 10%;
+}
+.title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: calc(5px + 1vw);
+}
+.BookPage button{
+    color:white;
+    background-color: rgba(93, 106, 251, 1);
+    padding: 20px 30px;
+    border-radius: 5%;
+    border: none;
+}
