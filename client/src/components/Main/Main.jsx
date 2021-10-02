@@ -19,6 +19,7 @@ const Main = (props) =>{
 
             
             {props.books.map((book) =>{
+                console.log(book)
                 return (
                     <NavLink exact to={`${book.section}/${book.book_name}`}>
                     <div className={style.book}>

@@ -23,7 +23,7 @@ function App() {
 
   const [booksSections, setBooksSections] = useState([])
   const [booksMainPage, setBooksMainPage] = useState([])
-
+  const [booksInSection, setBooksInSection] = useState([])
 
   useState(() =>{
     getBooksSection(setBooksSections)
@@ -32,7 +32,7 @@ function App() {
       setBooksMainPage(resp.data)
     }) 
 
-  })
+  },[])
 
   return (
     <div className='App'>
@@ -57,6 +57,17 @@ function App() {
                 }))
               }))
             })}
+          {booksSections.map((section) =>{
+            
+                return (
+                    <Route exact path={`/${section.name}`} render={() =>{
+                      return <Main books={booksMainPage.filter(book => book.section == section.name)}/>
+                  }}/>
+                )
+              })
+            }
+
+            
         </div>
        
         
