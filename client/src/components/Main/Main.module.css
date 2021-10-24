@@ -8,9 +8,9 @@
     padding-top: 50px;
     display: grid;
     grid-template-columns: repeat(auto-fill, 330px);
-    
-    margin-left: 10%;
     text-decoration: none;
+    justify-items: center;
+    justify-content: center;
     
 }
 .wrap a{
@@ -42,6 +42,7 @@
 }
 .title{
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: calc(2px + 1vw);
+    color: rgb(59, 59, 59);
 }
