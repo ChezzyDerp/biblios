@@ -7,7 +7,7 @@ const Nav = (props) =>{
                 <p>Книги</p>
                 <div className={style.wrap2}>
                     {props.booksSections.map((section) =>{
-                        return <NavLink className={style.navItem} activeClassName={style.active} exact to={section.name}>{section.name}</NavLink>
+                        return <NavLink className={style.navItem} activeClassName={style.active} to={"/" + section.name}>{section.name}</NavLink>
                     })
                     }
                 </div>

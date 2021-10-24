@@ -47,7 +47,7 @@ const BookPage = (props) =>{
 
             <div className={style.book}>
 
-                <img className={style.preview} src={`../${data.img}`|| notFound} alt="" />                    
+                <img className={style.preview} src={data.img ? `../${data.img}` : notFound} alt="" />                    
                 <div className={style.type}>
                     {data.section}
                 </div>

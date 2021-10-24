@@ -9,9 +9,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, 330px);
     text-decoration: none;
-    justify-items: center;
     justify-content: center;
-    
 }
 .wrap a{
     text-decoration: none;
